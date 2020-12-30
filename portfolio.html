@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <title>Reed Nelson - Portfolio</title>
+        <meta name="description" content="This is my portfilio.">
+        <link rel="icon" href="img/favicons/favicon.ico">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+
+    <body>
+
+        <!-- Title -->
+        <section class="title-bar d-flex align-items-center dark-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-md-6">
+
+                        <h1 class="title-bar-heading">Portfolio</h1>
+                        <h3 class="title-bar-subheading">Programming Projects</h3>
+
+                    </div>
+                    <div class="col-sm-10 col-md-6"> 
+
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Portfolio
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="index.html">Home</a>
+                                <a class="dropdown-item active" href="portfolio.html">Portfolio</a>
+                                <a class="dropdown-item" href="bio.html">Bio</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- It's Your Move -->
+        <section class="content-section content-section-left light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+
+                            <h2 class="content-section-left-heading">It's Your Move</h2>
+                            <p class="content-section-left-subheading">JavaScript, React - HTML - CSS</p>
+
+                            <p>
+                                It's Your Move is an ambitious athletics project from the team that worked on 
+                                <a target="_blank" href="http://raam.davehaase.com/">The Perfect Race</a> 
+                                project for Dave Haase's 
+                                <a target="_blank" href="https://www.raceacrossamerica.org/">Race Across America</a> in 2019.
+                                The long term goal of this ongoing endeavor is both to motivate ley folk to build and stick to fitness habits, and to satiate the 
+                                desires of hardcore athletes concerned with data like glucose level, core temperature, and more. Currently, the focus is on
+                                getting these core systems constructed for a diverse few high-performance athletes. 
+                                This effort integrates software and hardware from athletic, medical, IoT and AI areas into a unified platform.
+                                My contribution to this platfrom lies primarily in the front-end development of the web app. 
+                            </p>
+                            <p>
+                                The project code can be viewed 
+                                <a target="_blank" href="https://github.com/IYM-2021">here</a>. 
+                                <!-- and the finished product <a target="_blank" href="">here</a>. -->
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- de Bruijn Functions -->
+        <section class="content-section content-section-left light-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <h2 class="content-section-left-heading">de Bruijn Functions</h2>
+                        <p class="content-section-left-subheading">Java - Combinatorics</p>
+
+                        <p>
+                            A <a target="_blank" href="https://en.wikipedia.org/wiki/De_Bruijn_sequence">de Bruijn Sequence</a> 
+                            is a cyclic sequence of characters from an alphabet A of length k, which contains all permutations of n characters, 
+                            exactly once each. Uses for such sequences range from card tricks to gene sequencing.
+                        </p>
+                        <p>
+                            I developed algorithms as tools for 
+                            <a target="_blank" href="">Ben Cartford</a>, 
+                            an undergraduate at the University of Minnesota doing research on these sequences. 
+                            Most notably and most novel among these tools was an algorithm to generate every de Bruijn sequence for a given alphabet and window. 
+                            This process involves generating a graph corresponding the given alphabet and window ('n' value), traversing the graph's
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Eulerian_path">eulerian paths</a>, and parsing out the unique ones. 
+                            Space and time efficiency are imperative here, as there are 2<sup>120</sup>, or about 1.3E<sup>36</sup> unique sequences 
+                            for merely the k = 2 and n = 8, for example.
+
+                        </p>
+                        <p>
+                            To design optimal algorithms, my work on this project involved building an intimate understanding of de Bruijn sequences, 
+                            and getting comfortable with the associated graph theory and combinatorics. In addition to answering questions, 
+                            calculations made through this endeavor led to discoery of patterns unseen by us, and more points of interests for the research.
+                        </p>
+                        <p> <!-- NEED THIS LINK -->
+                            My code and more can be found <a target="_blank" href="https://github.com/bencartford/debrewin">here</a>. 
+                            A brief synopsis of Cartford's research can be found <a target="_blank" href="https://ugresearch.umn.edu/symposium/fall2020presenters/Ben-Cartford">here</a>, 
+                            and an in-depth publication on the work done so far can be found <a target="_blank" href="">here</a>.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conway's Game of Life -->
+        <section class="content-section content-section-left light">
+            <div class="container">
+                <div class="row">
+                    <div class="col"> 
+
+                        <h2 class="content-section-left-heading">Conway's Game of Life</h2>
+                        <p class="content-section-left-subheading">Java, JavaFX</p>
+
+                        <p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>, 
+                            a cellular automaton designed by the recently passed 
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/John_Horton_Conway#">John Conway</a>,
+                            is a 'game' played out on a discretely mutating 2D grid of square, binary cells. 
+                            The state of the each cell in the grid from one 'generation' (grid state) to the next is determined by the states of its 'neighbors' (immediately adjacent cells). 
+                            For example, if a cell is 'alive' in the curent generation, and has more than 3 living neighbors, it will be dead in the next generation as if by overpopulation.
+                        </p>
+                        <p>
+                            My rendition of this classic game is highly interactive. The board can be popuated randomly, manually by individual toggle or by click and drag, or with a preset imported from a file.
+                            The board can also be cleared, as well as re-populated at any time, as well as mutated live, and paused. 
+                            The rate of state change and the grid size are adjustable, and a record of the game's states can be saved to a chosen file location. 
+                            Using the extensive implementation of the JavaFX library, the program features a friendly and pretty user interface.
+                        </p>
+                        <p>
+                            My code for this project can be found <a target="_blank" href="https://github.com/reednel/Seagull-1/tree/master/Seagull%20v1">here</a>.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- This Website -->
+        <section class="content-section content-section-left light-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col"> 
+
+                        <h2 class="content-section-left-heading">This Website</h2>
+                        <p class="content-section-left-subheading">HTML - CSS</p>
+
+                        <p>
+                            Yes, this website was built with my own bare hands! A further description is hardly necessary.
+                        </p>
+                        <p> <!-- NEED THIS LINK -->
+                            The code for this site can be found <a target="_blank" href="">here</a>.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            &copy; Reed Nelson - 2020
+        </footer>
+
+        <!-- JavaScript & Bootstrap, JQuery, Popper -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+
+    </body>
+
+</html>
